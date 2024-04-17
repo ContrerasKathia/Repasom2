@@ -12,6 +12,7 @@ proyecto se realizó un Fork)
 ● hacemos una conexión con el repositorio git remote
 ● visualisamos la dirección del repositorio vinculado a
 ● repositorio local git remote -v
+
 - Subir archivos a github sin ramas
 ● Creamos el proyecto en nuestro repositorio local
 ● Ver archivos por ser confirmados(archivos en color rojo) git status
