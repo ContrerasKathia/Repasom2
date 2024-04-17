@@ -1,0 +1,49 @@
+Pasos de Git para el proyecto
+● Fork al repositorio del ingeniero O creamos un nuevo repositorio (en caso del
+proyecto se realizó un Fork)
+● Invitar colaboradores
+● Proteger la rama principal
+
+- Clonar el repositorio
+● Clonar el repositorio git clone https://github.com/enlaceejemplo.git
+● ver los archivos y carpetas ls
+● Nos movemos a la carpeta del directorio cd nombre
+● ver los archivos y carpetas ls
+● hacemos una conexión con el repositorio git remote
+● visualisamos la dirección del repositorio vinculado a
+● repositorio local git remote -v
+- Subir archivos a github sin ramas
+● Creamos el proyecto en nuestro repositorio local
+● Ver archivos por ser confirmados(archivos en color rojo) git status
+● Agregamos los archivos (También llamada “staging area”) git add .
+● Ver archivos por ser confirmados(archivos en color verde) git status
+● Confirmamos cambios en el repositorio con mensaje git commit -m “comentarios”
+● Enviar los archivos/ cambios git push origin main
+
+- Crear, ver y cambiar Ramas
+● visualizar para ver cambios cambios del branch remoto main y fusionar esos
+cambios en el branch local git pull origin main
+● Ver si hay archivos por ser confirmados git status
+● Ver en qué rama nos encontramos git branch
+● Para crear una rama git branch nombrerama
+● Para ver si si creo la rama git branch
+● Cambiar de rama git checkout nombrerama
+● Para confirmar que cambiamos de rama git branch
+
+- Enviar Rama
+● ver en qué rama nos encontramos (como es rama no tienen que estar en main,
+tienen que estar en una rama que se haya creado anteriormente) git branch
+● Si están en el main se cambian de rama a la que usarán git checkout nombrerama
+● git status
+● git add .
+● git commit -m “comentario”
+● enviar commits locales al repositorio git push origin nombrerama
+
+Para unir la rama al main/ subir la rama al main
+● ver en qué rama nos encontramos (como es para subir al main, nos tenemos que
+situar en el main no en una rama) git branch
+● si no está en el main se cambia de rama al main git checkout main
+● enviamos la rama git pull origin nombrederama
+● git add .
+● git commit -m “comentario”
+● git push
