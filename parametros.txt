@@ -1,0 +1,6 @@
+ios::app adjunta toda la salida al final del archivo
+ios::ate abre un archivo en modo salida y se desplaza al final del archivo. los datos se pueden escribir en cualquier parte del archivo
+ios::in abre un archivo en modo entra
+ios::cout abre un archivo en moso salida
+ios::trunc descarta el contenido del archivo
+ios::binary abre un archivo en modo de entrada o salida binaria
