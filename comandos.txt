@@ -1,3 +1,4 @@
+git log >nombrearchivo.txt
 Pasos de Git para el proyecto
 ● Fork al repositorio del ingeniero O creamos un nuevo repositorio (en caso del
 proyecto se realizó un Fork)
